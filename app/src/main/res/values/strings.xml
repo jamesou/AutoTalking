@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">微信机器人</string>
+    <string name="aboutme_title">关于作者</string>
+    <string name="aboutme_text">此版本为初稿,有兴趣联系jamesou168@gmail.com</string>
+    <string name="notification_description">微信消息通知服务</string>
+    <string name="accessibility_description">微信自动聊天服务</string>
+    <string name="float_window">自动聊天浮动开关</string>
+</resources>

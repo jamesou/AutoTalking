@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/open_assistant"
+
+        android:title="打开辅助服务"
+
+        android:icon="@android:drawable/ic_menu_add"/>
+
+    <item android:id="@+id/open_notice"
+
+        android:title="打开通知服务"
+
+        android:icon="@android:drawable/ic_menu_gallery"/>
+
+    <item  android:id="@+id/about_me"
+
+        android:title="关于微信机器人"
+
+        android:icon="@android:drawable/ic_search_category_default"/>
+
+</menu>
+

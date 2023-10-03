@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="开启自动聊天">
+
+        <jamesou.autotalking.widget.CustomSwitchPreference
+            android:title="微信"
+            android:icon="@drawable/settings_ic_wechat"
+            android:key="KEY_WECHAT_ENABLE"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="高级设置">
+
+    <android.preference.SwitchPreference
+        android:title="快速监听通知栏"
+        android:summary="锁屏模式也能回复"
+        android:defaultValue="false"
+        android:key="KEY_NOTIFICATION_SERVICE_ENABLE"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
